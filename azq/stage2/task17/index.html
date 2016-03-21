@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>零基础JavaScript编码（五）</title>
+	<style>
+		.aqi-chart-wrap>div {
+			float: left;
+		}
+		.aqi-chart-wrap .day {
+			width: 30px;
+		}
+		.aqi-chart-wrap .week {
+			width: 60px;
+		}
+		.aqi-chart-wrap .day {
+			width: 100px;
+		}
+		.red {
+			background: red;
+		}
+		.black {
+			background: black;
+		}
+		.blue {
+			background: blue;
+		}
+		.green {
+			background: green;
+		}
+	</style>
+</head>
+<body>
+	<fieldset id="formGraTime">
+		<legend>请选择日期粒度：</legend>
+		<label>日<input name="gra-time" value="day" type="radio" checked="checked"></label>
+		<label>周<input name="gra-time" value="week" type="radio"></label>
+		<label>月<input name="gra-time" value="month" type="radio"></label>
+	</fieldset>
+
+	<fieldset>
+		<legend>请选择查看的城市：</legend>
+		<select id="citySelect">
+		  
+		</select>
+	</fieldset>
+
+	<div class="aqi-chart-wrap">
+
+	</div>
+	<script src="task.js"></script>
+</body>
+</html>
