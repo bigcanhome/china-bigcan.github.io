@@ -68,7 +68,7 @@ function render(data) {
   document.getElementById("resort").innerHTML = "";
   for(var i = 0,n = data.length;i<n;i++){
     var li = document.createElement("li");
-    li.innerHTML = "第"+i+1+"名："+data[i][0]+"空气质量：<b>"+data[i][1]+"</b>";
+    li.innerHTML = "第"+(i+1)+"名："+data[i][0]+"空气质量：<b>"+data[i][1]+"</b>";
     document.getElementById("resort").appendChild(li);
 }
   }
