@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>零基础JavaScript编码（二）</title>
+</head>
+<body>
+  <h3>污染城市列表</h3>
+  <ul id="aqiList">
+  </ul>
+
+<script type="text/javascript">
+
+var aqiData = [
+  ["北京", 90],
+  ["上海", 50],
+  ["福州", 10],
+  ["广州", 50],
+  ["成都", 90],
+  ["西安", 100]
+];
+
+(function () {
+
+  /*
+  在注释下方编写代码
+  遍历读取aqiData中各个城市的数据
+  将空气质量指数大于60的城市显示到aqi-list的列表中
+  */
+  //数据排序，二维数组，type是排序类型desc和asc，arr为要排序的二维数组,n按照n数值进行排序
+function sortData (type,arr,n){
+	var temArr=arr;
+	temArr.sort(function(a,b){
+		if(type="desc"){
+			return	b[n]-a[n]
+		}else {
+			return	a[n]-b[n]
+		}
+	});
+	return temArr;
+}
+function renderLi(id,n,name,value){
+	var li = document.createElement("li");
+	li.innerHTML = "第"+n+"名："+name+"，"+value;
+	document.getElementById(id).appendChild(li);
+}
+  var newData = sortData ("desc",aqiData,1);
+  for(var i = 0,n = newData.length;i<n;i++){
+  	if(newData[i][1]>=60){
+  		renderLi("aqiList",i+1,newData[i][0],newData[i][1]);//因为已经排序了所以这里的第几名就可以直接用i+1
+  	}
+  }
+
+})();
+
+</script>
+
+</script>
+</body>
+</html>
