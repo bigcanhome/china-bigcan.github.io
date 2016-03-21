@@ -107,35 +107,22 @@ function initCitySelector() {
  * 初始化图表需要的数据格式
  */
 function initAqiChartData() {
+  
   for(var key in aqiSourceData){
-    var total=0;
-    var n=0;
-    var m=0;
-    var weekn=1;
-    chartData[key].day = aqiSourceData[key];
-    for(var k in aqiSourceData[key]){
-        n++;
-        total +=aqiSourceData[key][k];
-        
-        if(n%7==0){
-          chartData[key].week.["第"+weekn+"周"] = parseInt(total/7);
-          weekn++;
-          total=0;
+    chartData[key] = [{},{},{}];
+  for(var i = 1; i<13;i++){
+      var total=0;
+      for(var j = 1; j<32;j++){
+        if(aqiSourceData[key]["2016-"+[((i+'').length==1)?("0"+i):i]+"-"+[((''+j).length==1)?("0"+j):j]]){
+          total += aqiSourceData[key]["2016-"+[((i+'').length==1)?("0"+i):i]+"-"+[((''+j).length==1)?("0"+j):j]];
+          chartData[key][2][i] = parseInt(total/j);
         }else {
-          var p = parseInt(total/(n%7));
-          chartData[key].week.["第"+weekn+"周"] = p;
-          total=0;
         }
-    }
-    for(var k in aqiSourceData[key]){
-        total +=aqiSourceData[key][k];
-          m++;
-          chartData[key].week.["第"+k.split("-")[1]+"月"] = parseInt(total/m);
-      
-    }
 
-  }
+      }
 
+    }
+}
   // 将原始的源数据处理成图表需要的数据格式
   // 处理好的数据存到 chartData 中
 }
