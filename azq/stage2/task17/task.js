@@ -41,6 +41,13 @@ var aqiSourceData = {
   "厦门": randomBuildData(100),
   "沈阳": randomBuildData(500)
 };
+var aqiCityData = (function(){
+  var tempArr=[];
+  for(var key in aqiSourceData){
+    tempArr.push(key)
+  }
+  return tempArr;
+})()
 
 // 用于渲染图表的数据
 var chartData = {};
@@ -48,7 +55,7 @@ var chartData = {};
 // 记录当前页面的表单选项
 var pageState = {
   nowSelectCity: -1,
-  nowGraTime: "day"
+  nowGraTime: 0
 }
 
 /**
@@ -56,6 +63,36 @@ var pageState = {
  */
 function renderChart() {
 
+  if (pageState.nowSelectCity==-1) {
+    document.getElementById("showData").innerHTML = "请选择城市！";
+    return false;
+  }
+
+  document.getElementById("showData").innerHTML = "";
+  var className = (function(){
+    if(pageState.nowGraTime==0){
+      return "day";
+    }else if(pageState.nowGraTime==1){
+      return "week";
+    }else{
+      return "month";
+    }
+  })();
+  var bgColor = ["red","black","green","blue"];
+  for(var key in chartData){
+    if(aqiCityData[pageState.nowSelectCity]==key){
+      var data = chartData[key][pageState.nowGraTime];
+
+      for(var k in data){
+        
+        var bgColorName = bgColor[Math.floor(Math.random() * bgColor.length + 1)-1];
+        var div = document.createElement("div");
+        div.style.height = (data[k]*1+30)+"px";
+        div.className = className+" "+bgColorName;
+        document.getElementById("showData").appendChild(div);
+      }
+    }
+  }
 }
 
 /**
@@ -110,19 +147,35 @@ function initAqiChartData() {
   
   for(var key in aqiSourceData){
     chartData[key] = [{},{},{}];
-  for(var i = 1; i<13;i++){
-      var total=0;
-      for(var j = 1; j<32;j++){
-        if(aqiSourceData[key]["2016-"+[((i+'').length==1)?("0"+i):i]+"-"+[((''+j).length==1)?("0"+j):j]]){
-          total += aqiSourceData[key]["2016-"+[((i+'').length==1)?("0"+i):i]+"-"+[((''+j).length==1)?("0"+j):j]];
-          chartData[key][2][i] = parseInt(total/j);
+    var total=0;
+    var n=0;
+    var m=0;
+    var weekn=1;
+    chartData[key][0] = aqiSourceData[key];
+    for(var k in aqiSourceData[key]){
+        n++;
+        total +=aqiSourceData[key][k];
+        
+        if(n%7==0){
+          chartData[key][1][weekn] = parseInt(total/7);
+          weekn++;
+          total=0;
         }else {
+          var p = parseInt(total/(n%7));
+          chartData[key][1][weekn] = p;
+          total=0;
         }
-
-      }
-
     }
-}
+    for(var i = 1; i<13;i++){
+        var total=0;
+        for(var j = 1; j<32;j++){
+          if(aqiSourceData[key]["2016-"+[((i+'').length==1)?("0"+i):i]+"-"+[((''+j).length==1)?("0"+j):j]]){
+            total += aqiSourceData[key]["2016-"+[((i+'').length==1)?("0"+i):i]+"-"+[((''+j).length==1)?("0"+j):j]];
+            chartData[key][2][i] = parseInt(total/j);
+          }
+        }
+    }
+  }
   // 将原始的源数据处理成图表需要的数据格式
   // 处理好的数据存到 chartData 中
 }

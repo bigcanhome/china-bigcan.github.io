@@ -4,17 +4,22 @@
 	<meta charset="UTF-8">
 	<title>零基础JavaScript编码（五）</title>
 	<style>
+		.aqi-chart-wrap {
+			margin-top: 40px;
+			margin-left: 40px;
+		}
 		.aqi-chart-wrap>div {
-			float: left;
+			display: inline-block;
+			margin:0 auto;
 		}
 		.aqi-chart-wrap .day {
-			width: 30px;
+			width: 10px;
 		}
 		.aqi-chart-wrap .week {
-			width: 60px;
+			width: 20px;
 		}
-		.aqi-chart-wrap .day {
-			width: 100px;
+		.aqi-chart-wrap .month {
+			width: 40px;
 		}
 		.red {
 			background: red;
@@ -33,9 +38,9 @@
 <body>
 	<fieldset id="formGraTime">
 		<legend>请选择日期粒度：</legend>
-		<label>日<input name="gra-time" value="day" type="radio" checked="checked"></label>
-		<label>周<input name="gra-time" value="week" type="radio"></label>
-		<label>月<input name="gra-time" value="month" type="radio"></label>
+		<label>日<input name="gra-time" value="0" type="radio" checked="checked"></label>
+		<label>周<input name="gra-time" value="1" type="radio"></label>
+		<label>月<input name="gra-time" value="2" type="radio"></label>
 	</fieldset>
 
 	<fieldset>
@@ -45,7 +50,7 @@
 		</select>
 	</fieldset>
 
-	<div class="aqi-chart-wrap">
+	<div id="showData" class="aqi-chart-wrap">
 
 	</div>
 	<script src="task.js"></script>
