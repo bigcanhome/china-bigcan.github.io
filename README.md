@@ -1,6 +1,6 @@
 BigCan 菜鸟学习联盟
 
-<a href="http://jq.qq.com/?_wv=1027&k=40IW8Zu" target="_blank">QQ群:290861084</a>
+<a href="http://jq.qq.com/?_wv=1027&k=40IW8Zu" target="_blank">QQ群号:290861084</a>
 
 公众号
 
