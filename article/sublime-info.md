@@ -24,7 +24,7 @@ c) Preferences->Languages 下选择简体中文
 
 a) 帮助的输入授权码
 b)
-        —– BEGIN LICENSE —–
+    —– BEGIN LICENSE —–
     Michael Barnes
     Single User License
     EA7E-821385
