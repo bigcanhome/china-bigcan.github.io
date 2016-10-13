@@ -29,3 +29,10 @@
             clearTimeout(id);
         };
 }());
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?deab3d1290dcb49a87c81c82df7a7d2e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
