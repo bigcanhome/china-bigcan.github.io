@@ -1,3 +1,4 @@
+
 (function() {
 
     var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
