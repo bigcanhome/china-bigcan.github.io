@@ -2,22 +2,30 @@
 
 a) 按住Ctrl键 点击 [sublime text 首页](http://www.sublimetext.com/)
 
-b) ![下载位置](http://7xif9n.com1.z0.glb.clouddn.com/NY9%5BXR2P_37_4U5W%25%7B3UKQ7.png)
+
+b) 
+![下载位置](http://7xif9n.com1.z0.glb.clouddn.com/NY9%5BXR2P_37_4U5W%25%7B3UKQ7.png)
 
 c) Windows 64 bit - also available as a portable version  64位便携版 ps:下载可能需要翻墙;安装到u盘或者初c盘其他的位置，因为这个我们可以随时拷贝走或者同步云亦或者托管代码仓库
 
 <!-- more -->
 #### 更改插件包安装位置
 a) 打开sublime 找到 Preferences->Browse Packages…… 打开默认安装包位置
+
 b) 向上一直找到sublime text 3的文件夹，关闭sublime，删除 sublime text 3文件夹
+
 c) 回到sublime安装路径，在根目录新建Data文件夹
+
 d) 打开sublime 这时安装插件的路径就自动更改到的Data中
 
 #### 汉化
 
 a) 按住Ctrl键 点击 [汉化插件](http://sublimetext.iaixue.com/forum.php?mod=viewthread&tid=342&extra=&page=1)
+
 ps:需要注册一下回复才能看到下载地址
+
 b) 将下载的插件 放到Data\Installed Packages里 重启sublime
+
 c) Preferences->Languages 下选择简体中文
 
 #### 授权码
@@ -25,17 +33,29 @@ c) Preferences->Languages 下选择简体中文
 a) 帮助的输入授权码
 b)
     —– BEGIN LICENSE —–
+
     Michael Barnes
+
     Single User License
+
     EA7E-821385
+
     8A353C41 872A0D5C DF9B2950 AFF6F667
+
     C458EA6D 8EA3C286 98D1D650 131A97AB
+
     AA919AEC EF20E143 B361B1E7 4C8B7F04
+
     B085E65E 2F5F5360 8489D422 FB8FC1AA
+
     93F6323C FD7F7544 3F39C318 D95E6480
+
     FCCC7561 8A4A1741 68FA4223 ADCEDE07
+
     200C25BE DBBC4855 C4CFB774 C5EC138C
+
     0FEC1CEF D9DCECEC D3A5DAD1 01316C36
+
     —— END LICENSE ——
 
 可能会过期或者失效，可以去网上搜，有很多
@@ -43,11 +63,14 @@ b)
 #### 安装 Package Control
 
 a) Ctrl+Shift+p 然后输入install 会出现Install Package Control 不过这个貌似还得翻墙
+
 b) 按住Ctrl键 点击 [packagecontrol](https://packagecontrol.io/installation)有安装说明，不过还得翻墙，这个网址有病
+
 c) 直接下载包 网上搜索一下，Package Control.sublime-package 然后放到Data\Installed Packages里 重启sublime 同样在设置里会看到
 
 #### 如何利用Package Control安装插件
  a) 设置-> Package Control  or  Ctrl+Shift+p找到Package Control install 这时他会去加载可以安装的插件
+ 
  b) 常用插件:
 - Emmet: 可以使HTML/CSS编码速度提升，快速生成html,css
 - SublimeCodeIntel: 代码补全和提示
