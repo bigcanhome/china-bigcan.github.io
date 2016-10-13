@@ -1,11 +1,4 @@
----
-layout: post
-title: "翘边相框demo"
-date: 2014-09-16 14:48
-comments: true
-category: demo
-tags: [css3]
----
+
 这种翘边阴影的实际原理是利用视觉的一种错觉，在实体box下放带有阴影元素
 
  `box-shadow: h-shadow v-shadow blur spread color inset;`
