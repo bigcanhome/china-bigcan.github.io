@@ -23,3 +23,8 @@ BigCan 菜鸟学习联盟
 ### 收藏
 
 - [前端资源教程&开发模块化/规范化/工程化/优化&工具/调试&值得关注的博客/Git&面试-资源汇总](https://segmentfault.com/a/1190000007062464?from=timeline&isappinstalled=0)
+
+### demo
+
+- [老虎机](demo/one-arm-bandit)
+- [围住神经猫](demo/mycat)
