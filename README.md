@@ -19,6 +19,7 @@ BigCan 菜鸟学习联盟
 
 ### html5-css3
 - [翘边相框demo](article/title-shadow.md)
+- [border的其他用法](article/border.md)
 
 ### 收藏
 
