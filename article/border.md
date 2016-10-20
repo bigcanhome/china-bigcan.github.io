@@ -1,7 +1,7 @@
 
 当你打开非常有尿性的ide或者编辑器，新建一个css文件，然后给一个元素添加属性的时候，输入border，不要动，静静看着他的美
 
-border系列的属性还是挺多的，尤其是到了css3版本又加了很多可玩的属性；其中最常用的是 ``border-radius`、``border-image``
+border系列的属性还是挺多的，尤其是到了css3版本又加了很多可玩的属性；其中最常用的是 ``border-radius``、``border-image``
 
 - border制作箭头
 
