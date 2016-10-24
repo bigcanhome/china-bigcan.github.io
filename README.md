@@ -14,6 +14,8 @@ BigCan 菜鸟学习联盟
 
 ### javascript
 
+- [利用canvas实现本地上传图片并预览](https://segmentfault.com/a/1190000007237076?_ea=1281712)
+
 ### 自动化构建
 - [webpack+react+es6+第三方库](https://coding.net/u/anzhiqing/p/webpack-html5/git)
 
