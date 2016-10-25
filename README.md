@@ -18,6 +18,7 @@ BigCan 菜鸟学习联盟
 
 ### 自动化构建
 - [webpack+react+es6+第三方库](https://coding.net/u/anzhiqing/p/webpack-html5/git)
+- [利用gulp处理简单的前端问题](https://segmentfault.com/a/1190000007268787)
 
 ### html5-css3
 - [翘边相框demo](article/title-shadow.md)
