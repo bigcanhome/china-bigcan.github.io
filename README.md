@@ -101,5 +101,5 @@ BigCan 菜鸟学习联盟
 - [泳池大乱斗](http://www.ttthing.com/weixin/nzt_fight/)
 - [AI来了](http://i-am-ai.china4a.org/)
 - [这个陌生来电你敢接吗？](http://evt.dianping.com/8809/index.html)
-- [安踏奥运 “去打破”](http://antario.act.qq.com/)
-- [淘宝造物节邀请函](http://zwj360.im20.com.cn/)
+- [安踏奥运 “去打破”(卡，需把device-width=640)](http://antario.act.qq.com/)
+- [淘宝造物节邀请函(失效)](http://zwj360.im20.com.cn/)
