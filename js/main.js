@@ -184,4 +184,4 @@
     }
     
 })();
-console.log('%c 不要犹豫了快来加入我们 290861084 ', 'background: #000; color: #bada55‘);
+console.log('%c 不要犹豫了快来加入我们 290861084 ', 'background: #000; color: #bada55');
