@@ -33,7 +33,7 @@ BigCan 菜鸟学习联盟
 - [JavaScript奇味探索 - xzavier - SegmentFault](https://www.zhihu.com/question/29615998)
 - [jQuery全屏跟随和可平滑跳转到相应文章段落的导航菜单DEMO1_科蚁网--](http://yanshi.ke01.com/sucai/20150427/1/index.html)
 
-### canvs&svg
+### canvas&svg
 
 - [利用canvas实现本地上传图片并预览](https://segmentfault.com/a/1190000007237076?_ea=1281712)
 - [你必须知道的10个提高Canvas性能技巧 - 【当耐特】 - 博客园](http://www.cnblogs.com/iamzhanglei/archive/2011/11/29/2267868.html)
