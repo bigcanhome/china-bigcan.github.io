@@ -32,6 +32,7 @@ BigCan 菜鸟学习联盟
 - [JavaScript奇味探索 - xzavier - SegmentFault](https://segmentfault.com/a/1190000007184963)
 - [JavaScript奇味探索 - xzavier - SegmentFault](https://www.zhihu.com/question/29615998)
 - [jQuery全屏跟随和可平滑跳转到相应文章段落的导航菜单DEMO1_科蚁网--](http://yanshi.ke01.com/sucai/20150427/1/index.html)
+- [前端跨域整理](https://segmentfault.com/a/1190000007326671)
 
 ### canvas&svg
 
