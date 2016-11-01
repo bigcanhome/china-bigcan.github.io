@@ -6,6 +6,10 @@ BigCan 菜鸟学习联盟
 
 ![BigCan](http://7xif9n.com1.z0.glb.clouddn.com/bigcan-code.jpg)
 
+### 面试题
+- [整理前端面试题](http://www.w3cfuns.com/notes/23515/c9163ddd620baac5dd23141d41982bb8.html)
+- [整理前端面试题2](http://www.w3cfuns.com/notes/23515/fa8b1e788ac39b04108fc33e5b543c4a.html)
+
 ### 工具篇
 - [sublime插件安装 破解 快捷键](article/sublime-info.md)
 - [工具武装的前端开发工程师 - jsdig - 前端乱炖](http://www.html-js.com/article/jsdig-gongjuwuzhuangdiqianduankaifagongchengshi%203661)
