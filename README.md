@@ -34,7 +34,7 @@ BigCan 菜鸟学习联盟
 - [知道这20个正则表达式，能让你少写1,000行代码 - 简书](http://www.jianshu.com/p/e7bb97218946)
 - [JavaScript 有什么奇技淫巧？ - 知乎](https://www.zhihu.com/question/27428135)
 - [JavaScript奇味探索 - xzavier - SegmentFault](https://segmentfault.com/a/1190000007184963)
-- [JavaScript奇味探索 - xzavier - SegmentFault](https://www.zhihu.com/question/29615998)
+- [javascript: [] == ![]; // true 答案为什么会是true?](https://www.zhihu.com/question/29615998)
 - [jQuery全屏跟随和可平滑跳转到相应文章段落的导航菜单DEMO1_科蚁网--](http://yanshi.ke01.com/sucai/20150427/1/index.html)
 - [前端跨域整理](https://segmentfault.com/a/1190000007326671)
 - [你所不知道的 Console](https://segmentfault.com/a/1190000006721606)
