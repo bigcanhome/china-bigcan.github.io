@@ -33,6 +33,8 @@ BigCan 菜鸟学习联盟
 - [JavaScript奇味探索 - xzavier - SegmentFault](https://www.zhihu.com/question/29615998)
 - [jQuery全屏跟随和可平滑跳转到相应文章段落的导航菜单DEMO1_科蚁网--](http://yanshi.ke01.com/sucai/20150427/1/index.html)
 - [前端跨域整理](https://segmentfault.com/a/1190000007326671)
+- [你所不知道的 Console](https://segmentfault.com/a/1190000006721606)
+- [《JavaScript 闯关记》之基本包装类型](https://segmentfault.com/a/1190000007290938?_ea=1298573)
 
 ### canvas&svg
 
