@@ -125,6 +125,3 @@ BigCan 菜鸟学习联盟
 - [countUpjs-动态数字变化](http://dmitrybaranovskiy.github.io/raphael/)
 - [swiper-滑动库](http://www.swiper.com.cn/)
 - [hammerjs-手势库](http://hammerjs.github.io/)
-.  
-.  
-.
