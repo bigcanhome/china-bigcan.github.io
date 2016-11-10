@@ -110,3 +110,21 @@ BigCan 菜鸟学习联盟
 - [这个陌生来电你敢接吗？](http://evt.dianping.com/8809/index.html)
 - [安踏奥运 “去打破”(卡，需把device-width=640)](http://antario.act.qq.com/)
 - [淘宝造物节邀请函(失效)](http://zwj360.im20.com.cn/)
+
+### 流弊的博客
+
+- [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+- [张鑫旭-鑫空间-鑫生活](http://www.zhangxinxu.com/)
+- [廖雪峰官方博客](http://www.liaoxuefeng.com/)
+- [xsstomy](http://xsstomy.com/)
+- [zexeo](http://zexeo.com/home)
+
+### 流弊的轮子
+
+- [raphaeljs-svg库](http://dmitrybaranovskiy.github.io/raphael/)
+- [countUpjs-动态数字变化](http://dmitrybaranovskiy.github.io/raphael/)
+- [swiper-滑动库](http://www.swiper.com.cn/)
+- [hammerjs-手势库](http://hammerjs.github.io/)
+.  
+.  
+.
