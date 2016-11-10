@@ -125,3 +125,8 @@ BigCan 菜鸟学习联盟
 - [countUpjs-动态数字变化](http://dmitrybaranovskiy.github.io/raphael/)
 - [swiper-滑动库](http://www.swiper.com.cn/)
 - [hammerjs-手势库](http://hammerjs.github.io/)
+- [css 3d引擎](https://github.com/shrekshrek/css3d-engine)
+- [横竖屏重力感应的易用组件](https://github.com/shrekshrek/orienter)
+- [jstween为简单好用的tween类](https://github.com/shrekshrek/jstween)
+- [图云wordcloud2](https://github.com/timdream/wordcloud2.js)
+- [audio.js音频播放](https://github.com/kolber/audiojs)
