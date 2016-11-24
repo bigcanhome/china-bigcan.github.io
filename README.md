@@ -118,6 +118,9 @@ BigCan 菜鸟学习联盟
 - [廖雪峰官方博客](http://www.liaoxuefeng.com/)
 - [xsstomy](http://xsstomy.com/)
 - [zexeo](http://zexeo.com/home)
+- [腾讯alloyteam](http://www.alloyteam.com/)
+- [AlloyPhoto](http://alloyteam.github.io/AlloyPhoto/)
+- [dorsywang](http://www.dorsywang.com/)
 
 ### 流弊的轮子
 
@@ -130,3 +133,4 @@ BigCan 菜鸟学习联盟
 - [jstween为简单好用的tween类](https://github.com/shrekshrek/jstween)
 - [图云wordcloud2](https://github.com/timdream/wordcloud2.js)
 - [audio.js音频播放](https://github.com/kolber/audiojs)
+- [Abstract 2.0来自腾讯兴趣部落的前端框架](http://www.dorsywang.com/Abstract.js/)
