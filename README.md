@@ -110,6 +110,7 @@ BigCan 菜鸟学习联盟
 - [这个陌生来电你敢接吗？](http://evt.dianping.com/8809/index.html)
 - [安踏奥运 “去打破”(卡，需把device-width=640)](http://antario.act.qq.com/)
 - [淘宝造物节邀请函(失效)](http://zwj360.im20.com.cn/)
+- [薛之谦史上最疯狂的广告](http://game.qq.com/act/a20161121xzq/)
 
 ### 流弊的博客
 
@@ -134,3 +135,4 @@ BigCan 菜鸟学习联盟
 - [图云wordcloud2](https://github.com/timdream/wordcloud2.js)
 - [audio.js音频播放](https://github.com/kolber/audiojs)
 - [Abstract 2.0来自腾讯兴趣部落的前端框架](http://www.dorsywang.com/Abstract.js/)
+- [iphone-inline-video不全屏去掉进度条](https://github.com/bfred-it/iphone-inline-video)
