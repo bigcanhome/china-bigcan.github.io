@@ -88,6 +88,8 @@ BigCan 菜鸟学习联盟
 - [HTML5 有哪些让你惊艳的 demo？ - CSS - 知乎](http://www.zhihu.com/question/24398907)
 - [H5项目常见问题汇总及解决方案 - OPEN 开发经验库](http://www.open-open.com/lib/view/open1449325854077.html)
 - [移动前端不得不了解的HTML5 head 头标签（2016最新版） – WEB前端开发 - 专注前端开发，关注用户体验](http://www.css88.com/archives/6410)
+- [【前端知识】Flexbox，更优雅的布局](https://segmentfault.com/a/1190000002490633)
+- [我们就来谈谈Flexbox布局](http://tgideas.qq.com/webplat/info/news_version3/804/7104/7106/m5723/201603/443362.shtml)
 
 ### 收藏
 
