@@ -97,6 +97,7 @@ BigCan 菜鸟学习联盟
 - [html5技术交流_蚂蚁HTML5社区-最大HTML5中文开发社区](http://bbs.zzfriend.com/forum.php?mod=forumdisplay&fid=2&page=2)
 - [Word Cloud Generator](https://www.jasondavies.com/wordcloud/)
 - [【原】移动web资源整理 - 白树 - 博客园](http://www.cnblogs.com/PeunZhang/p/3407453.html)
+- [jquery仿百度万年历农历日期代码](http://www.17sucai.com/pins/14847.html)
 
 ### demo
 
@@ -138,3 +139,6 @@ BigCan 菜鸟学习联盟
 - [audio.js音频播放](https://github.com/kolber/audiojs)
 - [Abstract 2.0来自腾讯兴趣部落的前端框架](http://www.dorsywang.com/Abstract.js/)
 - [iphone-inline-video不全屏去掉进度条](https://github.com/bfred-it/iphone-inline-video)
+- [greensock](http://greensock.com/)
+- [jQuery Cycle Plugin](http://jquery.malsup.com/cycle/)
+- [Parallax.js是一款功能非常强大的javascript视觉差特效引擎插件它可以检测智能设备的方向](http://matthew.wagerfield.com/parallax/)
