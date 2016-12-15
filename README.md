@@ -21,6 +21,9 @@ BigCan 菜鸟学习联盟
 ### 性能篇
 - [移动端页面优化方案](article/web-mobile.md)
 
+### 坑
+- [腾讯浏览服务 x5](http://x5.tencent.com/guide?id=2001)
+
 ### javascript
 
 - [javascript多个圆点弧线运动效果](http://www.bird100.cn/wp-content/uploads/2016/demo/javascript23/index1.html)
@@ -90,6 +93,8 @@ BigCan 菜鸟学习联盟
 - [移动前端不得不了解的HTML5 head 头标签（2016最新版） – WEB前端开发 - 专注前端开发，关注用户体验](http://www.css88.com/archives/6410)
 - [【前端知识】Flexbox，更优雅的布局](https://segmentfault.com/a/1190000002490633)
 - [我们就来谈谈Flexbox布局](http://tgideas.qq.com/webplat/info/news_version3/804/7104/7106/m5723/201603/443362.shtml)
+- [fontello 字体符号](http://fontello.com/)
+- [Web-Fontmin -- 在线提取你需要的字体](https://segmentfault.com/a/1190000004600376)
 
 ### 收藏
 
