@@ -147,3 +147,4 @@ BigCan 菜鸟学习联盟
 - [greensock](http://greensock.com/)
 - [jQuery Cycle Plugin](http://jquery.malsup.com/cycle/)
 - [Parallax.js是一款功能非常强大的javascript视觉差特效引擎插件它可以检测智能设备的方向](http://matthew.wagerfield.com/parallax/)
+- [WOW.js – 让页面滚动更有趣](https://github.com/matthieua/WOW)
