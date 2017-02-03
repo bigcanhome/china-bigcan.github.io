@@ -55,6 +55,7 @@ BigCan 菜鸟学习联盟
 - [js实现svg图形转存为图片下载 - 世界呆的个人空间 - 开源中国社区](http://my.oschina.net/u/2400083/blog/483870?p=1)
 - [HTML5实战——svg学习 - 挨踢前端 - 博客园](http://www.cnblogs.com/duanhuajian/archive/2013/07/31/3227410.html)
 - [《每周一点canvas动画》——差分函数的妙用 - 你不知道的javascript学习 - SegmentFault](https://segmentfault.com/a/1190000007206262)
+- [帅气的SVG路径描边动画 (path animation) 实战应用](http://www.tuicool.com/articles/aa2iu22)
 
 
 ### react
