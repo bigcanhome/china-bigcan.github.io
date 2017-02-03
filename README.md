@@ -53,6 +53,8 @@ BigCan 菜鸟学习联盟
 - [js实现svg图形转存为图片下载 - 世界呆的个人空间 - 开源中国社区](http://my.oschina.net/u/2400083/blog/483870?p=1)
 - [HTML5实战——svg学习 - 挨踢前端 - 博客园](http://www.cnblogs.com/duanhuajian/archive/2013/07/31/3227410.html)
 - [《每周一点canvas动画》——差分函数的妙用 - 你不知道的javascript学习 - SegmentFault](https://segmentfault.com/a/1190000007206262)
+- [Javascript 中的神器——Promise](http://www.jianshu.com/p/063f7e490e9a)
+- [JavaScript异步编程的Promise模式](http://www.infoq.com/cn/news/2011/09/js-promise)
 
 ### react
 
@@ -148,3 +150,5 @@ BigCan 菜鸟学习联盟
 - [jQuery Cycle Plugin](http://jquery.malsup.com/cycle/)
 - [Parallax.js是一款功能非常强大的javascript视觉差特效引擎插件它可以检测智能设备的方向](http://matthew.wagerfield.com/parallax/)
 - [WOW.js – 让页面滚动更有趣](https://github.com/matthieua/WOW)
+- [页面转图片](https://github.com/niklasvh/html2canvas)
+- [史上最华丽的打字效果JS插件](https://github.com/coffeedeveloper/typing.js)
